@@ -1,24 +1,9 @@
-import {
-  FluentDesignSystemProvider,
-  FluentButton,
-  FluentCheckbox,
-  FluentTextField,
-  FluentCard,
-  FluentSlider,
-  FluentSliderLabel
-} from "@fluentui/web-components";
-import { TodoApp } from "./src/todo-app";
-import { TodoForm } from "./src/todo-form";
-import { DesignPropertyPanel } from "./src/design-property-panel";
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.3.1/firebase-app.js"></script>
 
-FluentDesignSystemProvider;
-FluentButton;
-FluentCheckbox;
-FluentTextField;
-FluentCard;
-FluentSlider;
-FluentSliderLabel;
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.3.1/firebase-analytics.js"></script>
 
-TodoForm;
-TodoApp;
-DesignPropertyPanel;
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
